@@ -160,7 +160,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        loadLevel()
+        DispatchQueue.main.async {
+            self.loadLevel()
+        }
     }
     
     @objc func letterTapped(_ sender: UIButton) {
@@ -223,6 +225,7 @@ class ViewController: UIViewController {
         }
     }
     
+    
     func levelUp(action: UIAlertAction) {
         level += 1
         
@@ -256,64 +259,72 @@ class ViewController: UIViewController {
     }
     
     func loadLevel() {
-        var clueString = "" // текст усіх підказок
-        var solutionsString = "" // текст із кількістю букв для кожної відповіді
-        var letterBits = [String]() // шматочки слів (будуть кнопки, які треба натискати)
-        
-        // Шукаємо файл level*.txt в ресурсах:
-        if let levelFileURL = Bundle.main.url(forResource: "level\(level)", withExtension: "txt") {
-            // if let levelContents = try? String(contentsOf: levelFileURL)
-            if let levelContents = try? String(contentsOf: levelFileURL, encoding: .utf8) {
-                
-                // Розбиваємо файл на рядки (по \n)
-                var lines = levelContents.components(separatedBy: "\n")
-                lines.shuffle()
-                
-                // Проходимо по кожному рядку + отримуємо номер
-                for (index, line) in lines.enumerated() {
-                    let parts = line.components(separatedBy: ": ") // масив parts ["HA|PP|Y", "Feeling good"]
+        DispatchQueue.global(qos: .utility).async {
+            [weak self] in
+            
+            guard let self = self else { return }
+            
+            var clueString = "" // текст усіх підказок
+            var solutionsString = "" // текст із кількістю букв для кожної відповіді
+            var letterBits = [String]() // шматочки слів (будуть кнопки, які треба натискати)
+            
+            // Шукаємо файл level*.txt в ресурсах:
+            if let levelFileURL = Bundle.main.url(forResource: "level\(level)", withExtension: "txt") {
+                // if let levelContents = try? String(contentsOf: levelFileURL)
+                if let levelContents = try? String(contentsOf: levelFileURL, encoding: .utf8) {
                     
-                    // Перевірка, чи масив parts містить мінімум 2 елементи
-                    if parts.count == 2 {
-                        let answer = parts[0] // answer — це частина з літерами, типу HA|PP|Y
-                        let clue = parts[1] // clue — текст підказки, типу "Feeling good"
+                    // Розбиваємо файл на рядки (по \n)
+                    var lines = levelContents.components(separatedBy: "\n")
+                    lines.shuffle()
+                    
+                    // Проходимо по кожному рядку + отримуємо номер
+                    for (index, line) in lines.enumerated() {
+                        let parts = line.components(separatedBy: ": ") // масив parts ["HA|PP|Y", "Feeling good"]
                         
-                        // Додаємо підказку до загального тексту (1. Feeling good)
-                        clueString += "\(index + 1). \(clue)\n"
-                        
-                        // Видаляємо |, отримуємо слово "HAPPY"
-                        let solutionWord  = answer.replacingOccurrences(of: "|", with: "")
-                        solutionsString += "\(solutionWord.count) letters\n"
-                        solutions.append(solutionWord)
-                        
-                        // Розбиваємо "HA|PP|Y" на шматки ["HA", "PP", "Y"]
-                        let bits = answer.components(separatedBy: "|")
-                        letterBits += bits
-                    } else {
-                        print("Warning: Invalid format for line: \(line)")
+                        // Перевірка, чи масив parts містить мінімум 2 елементи
+                        if parts.count == 2 {
+                            let answer = parts[0] // answer — це частина з літерами, типу HA|PP|Y
+                            let clue = parts[1] // clue — текст підказки, типу "Feeling good"
+                            
+                            // Додаємо підказку до загального тексту (1. Feeling good)
+                            clueString += "\(index + 1). \(clue)\n"
+                            
+                            // Видаляємо |, отримуємо слово "HAPPY"
+                            let solutionWord  = answer.replacingOccurrences(of: "|", with: "")
+                            solutionsString += "\(solutionWord.count) letters\n"
+                            solutions.append(solutionWord)
+                            
+                            // Розбиваємо "HA|PP|Y" на шматки ["HA", "PP", "Y"]
+                            let bits = answer.components(separatedBy: "|")
+                            letterBits += bits
+                        } else {
+                            print("Warning: Invalid format for line: \(line)")
+                        }
                     }
                 }
             }
             
-            // Додай логування сформованого слова
-            let fullWord = letterBits.joined() // Збирає всі частини в одне слово
-            print("Full Word: \(fullWord)") // Виводимо сформоване слово
-            
-            // Показуємо всі підказки в cluesLabel
-            cluesLabel.text = clueString.trimmingCharacters(in: .whitespacesAndNewlines)
-            // Показуємо кількість букв у кожному слові в answearsLabel
-            answersLabel.text = solutionsString.trimmingCharacters(in: .whitespacesAndNewlines)
-            
-            
-            
-            letterBits.shuffle()
-            
-            if letterButtons.count == letterBits.count {
-                for i in 0..<letterButtons.count {
-                    letterButtons[i].setTitle(letterBits[i], for: .normal)
+            DispatchQueue.main.async {
+                // Додай логування сформованого слова
+                let fullWord = letterBits.joined() // Збирає всі частини в одне слово
+                print("Full Word: \(fullWord)") // Виводимо сформоване слово
+                
+                // Показуємо всі підказки в cluesLabel
+                self.cluesLabel.text = clueString.trimmingCharacters(in: .whitespacesAndNewlines)
+                // Показуємо кількість букв у кожному слові в answearsLabel
+                self.answersLabel.text = solutionsString.trimmingCharacters(in: .whitespacesAndNewlines)
+                
+                
+                
+                letterBits.shuffle()
+                
+                if self.letterButtons.count == letterBits.count {
+                    for i in 0..<self.letterButtons.count {
+                        self.letterButtons[i].setTitle(letterBits[i], for: .normal)
+                    }
+                }  else {
+                    print("Error: The number of letter buttons doesn't match the number of letter bits.")
                 }
-            }  else {
-                print("Error: The number of letter buttons doesn't match the number of letter bits.")
             }
         }
     }
