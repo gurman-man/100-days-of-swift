@@ -17,7 +17,7 @@
 Taken from [here](https://www.hackingwithswift.com/read/15/5):
 
 >1. Go back to [project 8](https://github.com/gurman-man/100-days-of-swift/tree/main/Projects/08-LetterQuest) and make the letter group buttons fade out when they are tapped. We were using the `isHidden` property, but you'll need to switch to `alpha` because `isHidden` is either true or false, it has no animatable values between.
->2  Go back to [project 13](https://github.com/gurman-man/100-days-of-swift/tree/main/Projects/13-InstaFilter) and make the image view fade in when a new picture is chosen. To make this work, set the `alpha` to 0 first.
+>2. Go back to [project 13](https://github.com/gurman-man/100-days-of-swift/tree/main/Projects/13-InstaFilter) and make the image view fade in when a new picture is chosen. To make this work, set the `alpha` to 0 first.
 >3. Go back to [project 2](https://github.com/gurman-man/100-days-of-swift/tree/main/Projects/02-GuessTheFlag) and make the flags scale down with a little bounce when pressed.
 
 ## Screenshots
