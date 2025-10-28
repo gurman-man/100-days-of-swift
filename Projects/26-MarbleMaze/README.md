@@ -30,7 +30,7 @@ Taken from [here](https://www.hackingwithswift.com/read/25/5):
 
 <div align="center">
   <img src="./Screenshots/1.png" alt="Level 1" width="490">
-  <img src="./Screenshots/2.png" alt="Level 2" width="490">
+  <img src="./Screenshots/3.png" alt="Level 3" width="490">
 </div>
 
 ---
