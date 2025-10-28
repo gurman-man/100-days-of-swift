@@ -25,7 +25,7 @@ Taken from [here](https://www.hackingwithswift.com/read/22/4):
 <div align="center">
   <img src="./Screenshots/1.png" alt="Near" width="325">
   <img src="./Screenshots/2.png" alt="Notification" width="325">
-  <img src="./Screenshots/3.png" alt="Far width="325">
+  <img src="./Screenshots/3.png" alt="Far" width="325">
 </div>
 
 ---
