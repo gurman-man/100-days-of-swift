@@ -4,7 +4,7 @@
 
 >An educational UIKit project where we display a selected country’s flag in full screen and allow users to share it via UIActivityViewController, practicing navigation controllers, image handling, and system sharing in iOS.
 >
->Flag images taken from [here](https://flagicons.lipis.dev/)
+>Flag images taken from [here](https://flagicons.lipis.dev/).
 
 ## Contents
 
