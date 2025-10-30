@@ -6,6 +6,8 @@
 >
 >Flag images taken from [here](https://flagicons.lipis.dev/).
 
+---
+
 ## 🧩 Functionality
 - 📋 Displays a list of flags in a `UITableView`  
 - 🖼 View the selected flag in `DetailViewController`  
@@ -15,6 +17,8 @@
 - 🌐 Localized country names based on the device locale  
 - 🔍 Efficient image scaling for optimal display and performance
 
+---
+
 ## Screenshots
 
 <div align="center">
@@ -23,23 +27,15 @@
   <img src="./Screenshots/3.png" alt="Share alert" width="325">
 </div>
 
-## Installation
-
-1. Clone this repository:  
-   ```bash
-   git clone https://github.com/gurman-man/100-days-of-swift.git
-   ```
-2. Open `Challenge1.xcodeproj` in Xcode
-3. Run on the simulator or your device
-
 ---
 
-## Lesson Overview
+## Lesson Overview / Learning Progress
 
 |                      Day                      | Contents                                                                                                                                                                                                          |
 |:---------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [23](https://www.hackingwithswift.com/100/23) | <ul><li>[What you learned](https://www.hackingwithswift.com/guide/2/1)</li><li>[Key points](https://www.hackingwithswift.com/guide/2/2)</li><li>[Challenge](https://www.hackingwithswift.com/guide/2/3)</li></ul> |
 
+---
 
 ## Challenge Instructions
 
@@ -67,3 +63,14 @@
 >- Make sure your detail view controller has a property for the image name to load, as well as the `UIImageView` to load it into. The former should be modified from `ViewController` inside `didSelectItemAt`; the latter should be modified in the `viewDidLoad()` method of your detail view controller.
 >
 >**Bonus tip**: try setting the `imageView` property of the table view cell. Yes, they have one. And yes, it automatically places an image right there in the table view cell – it makes a great preview for every country.
+
+---
+
+## Installation
+
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/gurman-man/100-days-of-swift.git
+   ```
+2. Open `Challenge1.xcodeproj` in Xcode
+3. Run on the simulator or your device
