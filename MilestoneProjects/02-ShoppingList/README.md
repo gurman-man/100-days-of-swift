@@ -3,14 +3,15 @@
 [Milestone project 2](https://www.hackingwithswift.com/guide/3/1) from the [100 Days of Swift course](https://www.hackingwithswift.com/100) by [Hacking With Swift](https://www.hackingwithswift.com/).
 
 >A simple iOS shopping list app that lets users quickly add, manage, and clear items — practicing text input, table views, alerts, and basic data handling in Swift.
+>
+>Functionality 🧩
+>- ➕ Add items to the shopping list via an alert with text input  
+>- 📋 Display items in a `UITableView`  
+>- 🗑 Delete items with swipe actions (`UISwipeActionsConfiguration`)
+>- ♻️ Clear the entire list with a single tap
+>- 📤 Share the full shopping list via `UIActivityViewController`
+>- 🎨 Custom navigation bar appearance (title font & color)
 
-## Functionality 🧩
-- ➕ Add items to the shopping list via an alert with text input  
-- 📋 Display items in a `UITableView`  
-- 🗑 Delete items with swipe actions (`UISwipeActionsConfiguration`)  
-- ♻️ Clear the entire list with a single tap  
-- 📤 Share the full shopping list via `UIActivityViewController`  
-- 🎨 Custom navigation bar appearance (title font & color)
 
 ## Course Reference
 
