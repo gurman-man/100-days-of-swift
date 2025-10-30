@@ -8,12 +8,12 @@
 
 ## 🧩 Functionality
 
-🌍 Fetch country data from REST API  
-🧾 Display list of countries with flags  
-🔍 Search countries using `UISearchController`  
-➡️ Show detailed country info screen  
-📎 Open Wikipedia in `SFSafariViewController`  
-📤 Share country info via `UIActivityViewController`
+- 🌍 Fetch country data from REST API  
+- 🧾 Display list of countries with flags  
+- 🔍 Search countries using `UISearchController`  
+- ➡️ Show detailed country info screen  
+- 📎 Open Wikipedia in `SFSafariViewController`  
+- 📤 Share country info via `UIActivityViewController`
 
 ---
 
