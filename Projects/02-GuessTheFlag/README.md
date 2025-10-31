@@ -1,4 +1,4 @@
-# Guess The Flag 🇺🇦
+# 🤔 Guess The Flag 🤔
 
 [Project 2](https://www.hackingwithswift.com/read/2/overview) from the [100 Days of Swift course](https://www.hackingwithswift.com/100) by [Hacking With Swift](https://www.hackingwithswift.com/).  
 
@@ -24,9 +24,9 @@ Taken from [here](https://www.hackingwithswift.com/read/2/6/wrap-up):
 ## Screenshots
 
 <div align="center">
-  <img src="./Screenshots/one.png" alt="Main screen" width="488">
-  <img src="./Screenshots/two.png" alt="Wrong answer" width="488">
-  <img src="./Screenshots/three.png" alt="Level finished" width="488">
+  <img src="./Screenshots/1.png" alt="Main screen" width="325">
+  <img src="./Screenshots/2.png" alt="Wrong answer" width="325">
+  <img src="./Screenshots/3.png" alt="Level finished" width="325">
 </div>
 
 ---
