@@ -1,4 +1,4 @@
-# City Explorer 🗺️ 
+# 🗺️ City Explorer 🗺️ 
 
 [Project 16](https://www.hackingwithswift.com/read/16/overview) from the [100 Days of Swift course](https://www.hackingwithswift.com/100) by [Hacking With Swift](https://www.hackingwithswift.com/).
 
@@ -23,10 +23,10 @@ Taken from [here](https://www.hackingwithswift.com/read/16/4):
 ## Screenshots
 
 <div align="center">
-  <img src="./Screenshots/1.png" alt="Main screen" width="325">
-  <img src="./Screenshots/2.png" alt="Map types" width="325">
-  <img src="./Screenshots/3.png" alt="Hybrid type" width="325">
-  <img src="./Screenshots/4.png" alt="Detail screen" width="325">
+  <img src="./Screenshots/1.png" alt="Main screen" width="244">
+  <img src="./Screenshots/2.png" alt="Map types" width="244">
+  <img src="./Screenshots/3.png" alt="Hybrid type" width="244">
+  <img src="./Screenshots/4.png" alt="Detail screen" width="244">
 </div>
 
 ---
