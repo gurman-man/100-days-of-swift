@@ -1,6 +1,6 @@
 # Swift Extensions 🌀
 
-[Milestone project 7](https://www.hackingwithswift.com/100/82) from the [100 Days of Swift course](https://www.hackingwithswift.com/100) by [Hacking With Swift](https://www.hackingwithswift.com/).
+[Milestone project 8](https://www.hackingwithswift.com/100/82) from the [100 Days of Swift course](https://www.hackingwithswift.com/100) by [Hacking With Swift](https://www.hackingwithswift.com/).
 
 >A small Swift playground implementing custom extensions to enhance UIKit and Swift standard library functionality.
 
