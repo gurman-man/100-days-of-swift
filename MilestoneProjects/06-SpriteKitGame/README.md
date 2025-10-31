@@ -1,6 +1,6 @@
 # Sprite Kit Game
 
-[Milestone project 6](https://www.hackingwithswift.com/guide/7/1) from the [100 Days of Swift course](https://www.hackingwithswift.com/100) by [Hacking With Swift](https://www.hackingwithswift.com/).
+[Milestone project 6](https://www.hackingwithswift.com/100/66) from the [100 Days of Swift course](https://www.hackingwithswift.com/100) by [Hacking With Swift](https://www.hackingwithswift.com/).
 
 >Incomplete milestone-project
 
@@ -14,9 +14,10 @@
 
 ---
 
-## Challenge
+## Challenge Instructions
 
-From [Hacking with Swift](https://www.hackingwithswift.com/guide/7/3/challenge):
+*Instructions taken from [here](https://www.hackingwithswift.com/guide/7/3/challenge).*
+
 >It’s time to put your skills to the test and make your own app, starting from a blank canvas. This time your challenge is to make a shooting gallery game using SpriteKit: create three rows on the screen, then have targets slide across from one side to the other. If the user taps a target, make it fade out and award them points.
 >
 >How you implement this game really depends on what kind of shooting gallery games you’ve played in the past, but here are some suggestions to get you started:
