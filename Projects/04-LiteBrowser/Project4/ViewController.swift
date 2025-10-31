@@ -113,9 +113,9 @@ class ViewController: UITableViewController, WKNavigationDelegate {
         decisionHandler(.allow)
     }
 }
- */
+*/
 
-  
+
  import UIKit
  import WebKit // забеспечує інструменти для веб-контенту
 
