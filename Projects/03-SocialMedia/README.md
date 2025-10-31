@@ -1,4 +1,4 @@
-# Social Media 👪
+# 📲 Social Media 📲
 
 [Project 3](https://www.hackingwithswift.com/read/3/overview) from the [100 Days of Swift course](https://www.hackingwithswift.com/100) by [Hacking With Swift](https://www.hackingwithswift.com/).
 
@@ -16,13 +16,13 @@
 Taken from [here](https://www.hackingwithswift.com/read/3/3/wrap-up):
 
 >1. Try adding the image name to the list of items that are shared. The activityItems parameter is an array, so you can add strings and other things freely. Note: Facebook won’t let you share text, but most other share options will.
->2. Go back to project 1 and add a bar button item to the main view controller that recommends the app to other people.
->3. Go back to project 2 and add a bar button item that shows their score when tapped.
+>2. Go back to [project 1](https://github.com/gurman-man/100-days-of-swift/tree/main/Projects/01-StormViewer) and add a bar button item to the main view controller that recommends the app to other people.
+>3. Go back to [project 2](https://github.com/gurman-man/100-days-of-swift/tree/main/Projects/02-GuessTheFlag) and add a bar button item that shows their score when tapped.
 
 ## Screenshots
 
 <div align="center">
-  <img src="./Screenshots/one.png" alt="Main screen" width="488">
+  <img src="./Screenshots/1.png" alt="Main screen" width="488">
 </div>
 
 ---
