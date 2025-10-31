@@ -16,9 +16,9 @@
 
 Taken from [here](https://www.hackingwithswift.com/read/9/6/wrap-up):
 
->1. Modify [project 1](https://github.com/HenestrosaConH/100-days-of-swift/tree/main/Courses/01-StormViewer) so that loading the list of NSSL images from our bundle happens in the background. Make sure you call `reloadData()` on the table view once loading has finished!
->2. Modify [project 8](https://github.com/HenestrosaConH/100-days-of-swift/tree/main/Courses/08-SevenSwiftyWords) so that loading and parsing a level takes place in the background. Once you’re done, make sure you update the UI on the main thread!
->3. Modify [project 7](https://github.com/HenestrosaConH/100-days-of-swift/tree/main/Courses/07-WhitehousePetitions) so that your filtering code takes place in the background. This filtering code was added in one of the challenges for the project, so hopefully you didn't skip it!
+>1. Modify [project 1](https://github.com/gurman-man/100-days-of-swift/tree/main/Projects/09-StormViewerGCD/Project1(GCD-ChallengeTask)) so that loading the list of NSSL images from our bundle happens in the background. Make sure you call `reloadData()` on the table view once loading has finished!
+>2. Modify [project 8](https://github.com/gurman-man/100-days-of-swift/tree/main/Projects/08-LetterQuest) so that loading and parsing a level takes place in the background. Once you’re done, make sure you update the UI on the main thread!
+>3. Modify [project 7](https://github.com/gurman-man/100-days-of-swift/tree/main/Projects/07-WhitehousePetitions) so that your filtering code takes place in the background. This filtering code was added in one of the challenges for the project, so hopefully you didn't skip it!
 
 ## Screenshots
 
