@@ -1,4 +1,4 @@
-# Pachinko 🎯
+# 🎯 Pachinko 🎯
 
 [Project 11](https://www.hackingwithswift.com/read/11/overview) from the [100 Days of Swift course](https://www.hackingwithswift.com/100) by [Hacking With Swift](https://www.hackingwithswift.com/).
 
@@ -25,6 +25,7 @@ Taken from [here](https://www.hackingwithswift.com/read/11/8/wrap-up):
 
 <div align="center">
   <img src="./Screenshots/1.png" alt="Main screen" width="490">
+  <img src="./Screenshots/2.gif" alt="Main screen" width="490">
 </div>
 
 ---
