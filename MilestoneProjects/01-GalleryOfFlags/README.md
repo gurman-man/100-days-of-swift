@@ -1,6 +1,6 @@
 # Gallery Of Flags 🌍
 
-[Milestone project 1](https://www.hackingwithswift.com/guide/2/1) from the [100 Days of Swift course](https://www.hackingwithswift.com/100) by [Hacking With Swift](https://www.hackingwithswift.com/).
+[Milestone project 1](https://www.hackingwithswift.com/100/23) from the [100 Days of Swift course](https://www.hackingwithswift.com/100) by [Hacking With Swift](https://www.hackingwithswift.com/).
 
 >An educational UIKit project where we display a selected country’s flag in full screen and allow users to share it via UIActivityViewController, practicing navigation controllers, image handling, and system sharing in iOS.
 >
@@ -8,7 +8,7 @@
 
 ---
 
-## 🧩 Functionality
+## Functionality 🧩
 - 📋 Displays a list of flags in a `UITableView`  
 - 🖼 View the selected flag in `DetailViewController`  
 - 📤 Share a flag and its country name via `UIActivityViewController`  
