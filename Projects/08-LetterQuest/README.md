@@ -1,4 +1,4 @@
-# LetterQuest ❔
+# ❔LetterQuest ❔
 
 [Project 8](https://www.hackingwithswift.com/read/8/overview) from the [100 Days of Swift course](https://www.hackingwithswift.com/100) by [Hacking With Swift](https://www.hackingwithswift.com/).
 
@@ -23,7 +23,7 @@ Taken from [here](https://www.hackingwithswift.com/read/8/6/wrap-up):
 
 ## To Do as a Personal Challenge...
 
-- [ ] Add more levels
+- Add more levels
 
 ## Screenshots
 
