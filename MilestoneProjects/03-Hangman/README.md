@@ -1,6 +1,6 @@
 # Hangman 🔪
 
-[Milestone project 3](https://www.hackingwithswift.com/guide/4/1) from the [100 Days of Swift course](https://www.hackingwithswift.com/100) by [Hacking With Swift](https://www.hackingwithswift.com/).
+[Milestone project 3](https://www.hackingwithswift.com/100/41) from the [100 Days of Swift course](https://www.hackingwithswift.com/100) by [Hacking With Swift](https://www.hackingwithswift.com/).
 
 >iOS word-guessing game where players guess car brands letter by letter. Features dynamic UI, score tracking, hangman illustration, and menu system. Built with Swift, practicing UIStackView, Set collections, and programmatic layout.
 ---
