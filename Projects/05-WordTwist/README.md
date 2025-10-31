@@ -1,4 +1,4 @@
-# Word Twist 🆒
+# 🆒 Word Twist 🆒
 
 [Project 5](https://www.hackingwithswift.com/read/5/overview) from the [100 Days of Swift course](https://www.hackingwithswift.com/100) by [Hacking With Swift](https://www.hackingwithswift.com/).
 
@@ -28,9 +28,9 @@ To trigger the bug, look for a three-letter word in your starting word, and ente
 ## Screenshots
 
 <div align="center">
-  <img src="./Screenshots/one.png" alt="Main screen" width="488">
-  <img src="./Screenshots/two.png" alt="Allert one" width="488">
-  <img src="./Screenshots/three.png" alt="Allert two" width="488">
+  <img src="./Screenshots/1.png" alt="Main screen" width="325">
+  <img src="./Screenshots/2.png" alt="Allert one" width="325">
+  <img src="./Screenshots/3.png" alt="Allert two" width="325">
 </div>
 
 ---
