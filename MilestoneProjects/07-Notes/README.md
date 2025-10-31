@@ -1,6 +1,6 @@
 # Notes 📝
 
-[Milestone project 7](https://www.hackingwithswift.com/guide/8/1) from the [100 Days of Swift course](https://www.hackingwithswift.com/100) by [Hacking With Swift](https://www.hackingwithswift.com/).
+[Milestone project 7](https://www.hackingwithswift.com/100/74) from the [100 Days of Swift course](https://www.hackingwithswift.com/100) by [Hacking With Swift](https://www.hackingwithswift.com/).
 
 >iOS notes app with create, edit, delete, sort, and share features, using persistent storage and a rich text interface.
 
