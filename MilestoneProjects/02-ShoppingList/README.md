@@ -1,6 +1,6 @@
 # Shopping List 🧾
 
-[Milestone project 2](https://www.hackingwithswift.com/guide/3/1) from the [100 Days of Swift course](https://www.hackingwithswift.com/100) by [Hacking With Swift](https://www.hackingwithswift.com/).
+[Milestone project 2](https://www.hackingwithswift.com/100/32) from the [100 Days of Swift course](https://www.hackingwithswift.com/100) by [Hacking With Swift](https://www.hackingwithswift.com/).
 
 >A simple iOS shopping list app that lets users quickly add, manage, and clear items — practicing text input, table views, alerts, and basic data handling in Swift.
 
