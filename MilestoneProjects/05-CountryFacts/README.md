@@ -1,12 +1,12 @@
-# Country Facts
+# Country Facts 🪐
 
-[Milestone project 5](https://www.hackingwithswift.com/guide/6/1) from the [100 Days of Swift course](https://www.hackingwithswift.com/100) by [Hacking With Swift](https://www.hackingwithswift.com/).
+[Milestone project 5](https://www.hackingwithswift.com/100/59) from the [100 Days of Swift course](https://www.hackingwithswift.com/100) by [Hacking With Swift](https://www.hackingwithswift.com/).
 
 >iOS app that loads and displays country data from API with search, detail view, async images, and Wikipedia integration.
 
 ---
 
-## 🧩 Functionality
+## Functionality 🧩
 
 - 🌍 Fetch country data from REST API  
 - 🧾 Display list of countries with flags  
