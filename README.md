@@ -7,7 +7,7 @@
 </p>
 
 <div align="center">
-  <img src="Assets/icon.jpeg" alt="Logo" width="180">
+  <img src="Assets/icon.jpeg" alt="Logo" width="325">
 </div>
 
 ---
@@ -112,7 +112,7 @@
 >Course completed on September 01, 2025. Achieved certificate of merit.
 
 <div align="center">
-  <img src="Assets/certificate.jpg" alt="Certificate" width="300">
-  <img src="Assets/FinalExam.jpg" alt="FinalExam" width="300">
+  <img src="Assets/certificate.jpg" alt="Certificate" width="48%">
+  <img src="Assets/FinalExam.jpg" alt="FinalExam" width="48%">
 </div>
 
