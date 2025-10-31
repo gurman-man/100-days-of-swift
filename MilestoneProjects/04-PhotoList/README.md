@@ -1,6 +1,6 @@
 # Photo List 📷
 
-[Milestone project 4](https://www.hackingwithswift.com/guide/5/1) from the [100 Days of Swift course](https://www.hackingwithswift.com/100) by [Hacking With Swift](https://www.hackingwithswift.com/).
+[Milestone project 4](https://www.hackingwithswift.com/100/50) from the [100 Days of Swift course](https://www.hackingwithswift.com/100) by [Hacking With Swift](https://www.hackingwithswift.com/).
 
 >A simple iOS photo journal app that lets users import photos, add captions, edit them, and save everything using UserDefaults and the app's Documents directory. Features a table-based gallery, photo picker, caption editing, and swipe-to-delete support.
 
