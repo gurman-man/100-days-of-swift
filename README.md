@@ -77,7 +77,7 @@
 
 ## 16. [City Explorer](https://github.com/gurman-man/100-days-of-swift/tree/main/Projects/16-CityExplorer) *(Days 60 - 61)*
 
-## 17. [Space Dodger](https://github.com/gurman-man/100-days-of-swift/tree/main/Projects/15-Animation) *(Days 62 - 63)*
+## 17. [Space Dodger](https://github.com/gurman-man/100-days-of-swift/tree/main/Projects/17-SpaceDodger) *(Days 62 - 63)*
 
 ## 18. [Debugging](https://github.com/gurman-man/100-days-of-swift/tree/main/Projects/18-Debugging) *(Days 64 - 65)*
 
