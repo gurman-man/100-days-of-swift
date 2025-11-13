@@ -1,4 +1,4 @@
-# 🌐 Easy Browser 🌐
+# 🌐 Lite Browser 🌐
 
 [Project 4](https://www.hackingwithswift.com/read/4/overview) from the [100 Days of Swift course](https://www.hackingwithswift.com/100) by [Hacking With Swift](https://www.hackingwithswift.com/).
 
